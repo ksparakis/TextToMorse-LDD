@@ -6,6 +6,7 @@ This is a Linux Device Driver, Includes the Kernel Module and converts text into
 Hardware Setup
 ---
 (Note I used a raspberry pi model B, but should work for other similar devices)
+
 using a bread board or any other type of connector
 connect the led to "GPIO PIN 17" (Depending on your device or need you can change this)
 and to the ground.
