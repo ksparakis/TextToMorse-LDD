@@ -8,13 +8,21 @@ How To Run
 (Make sure you have root permission to run this code. This means either A, that you log in to root or B, you use Sudo Before all commads.)
 
 First Step
+
 cd into km folder and use the command "make"
 
 Second Step
+
 cd into ul folder and use command "make"
 
-Thir Step
+Third Step - Running the kernal module
+
 Running the script
-chmod +x runMe.sh
+
+chmod +x runMe.sh (Must be in main directory)
 ./runme.sh
+
 Doing it manualy
+mknod /dev/text2Morse c 60 0 (Can do this from file location)
+insmod text2Morse.ko (Must be in km directory)
+
